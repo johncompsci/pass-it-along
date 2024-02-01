@@ -1,0 +1,14 @@
+{"image":"mcr.microsoft.com/devcontainers/universal:2", "forwardPorts": [3000], "portsAttributes": {
+    "3000": {
+        "label": "the port",
+        "onAutoForward": "notify"
+    }
+}, "postCreateCommand": "npm i -g serve && npx serve", "customizations": {
+    "vscode": {
+        "settings": {
+            "workbench.colorTheme": "Cute",
+            "window.commandCenter": false
+        },
+        "extensions": ["webfreak.cute-theme"]
+    }
+}}
